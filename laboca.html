@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Boca - info</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-color: darkslateblue;
+            font-family: 'Roboto';
+        }
+        .container{
+            background-color: darkkhaki;
+            border-width: 3px;
+            border: solid;
+        }
+        fieldset{
+            margin: 20px;
+            border: 2px solid;
+            background-color: white;
+        }
+        legend{
+            background-color: lightslategray;
+            padding: 5px;
+            font-weight: bold;
+        }
+        img{
+            border-radius: 20%;
+            border: 2px solid;
+        }
+        #laribera{
+            padding-left: 65px;
+            padding-bottom: 40px;
+        }
+        #museo{
+            padding-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span class="text-primary fs-5 fw-bold">Travel Fut</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contactos.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Informacion.html">Informacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Quienes Somos?</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row m-3">
+            <div class="col-md-2">
+                <fieldset>
+                    <legend>Barrios</legend>
+                    <ul>
+                        <li><a href="info.html">Información general</a></li>
+                        <li><a href="nunez.html">Núñez</a></li>
+                        <li><a href="parquepatricios.html">Parque Patricios</a></li>
+                        <li><a href="boedo.html">Boedo</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="col-md-7">
+                <h4>El caminito</h4>
+                <p>Es un callejón museo y un pasaje, de gran valor cultural y turístico. Las casas de madera y chapa que tienen su frente al Caminito, responden al estilo del tradicional conventillo boquense, el lugar adquirió significado cultural debido a que inspiró la música del famoso tango "Caminito".</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/Caminito.jpg" alt="Foto del Caminito" width="300px">
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-7">
+                <h4>Teatro La Ribera</h4>
+                <p>El Teatro de la Ribera, situado en Avenida Pedro de Mendoza 1821, en la propia Vuelta de Rocha, ofrece a sus espectadores 643 ubicaciones, distribuidas en una platea baja de 475 localidades y una platea alta con 168 butacas. El escenario tiene 11.30 metros de embocadura y 14 metros de profundidad.</p>
+            </div>
+            <div class="col-md-3" id="laribera">
+                <img src="img/TeatrodelaRibera-Frente.jpg" alt="Foto del Teatro" width="200px">
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-7">
+                <h4>La Bombonera</h4>
+                <p>Reconocido por diversos medios nacionales e internacionales como uno de los más emblemáticos del mundo, y declarado de interés deportivo, turístico y artístico de la ciudad de Buenos Aires. Cuenta también con el museo ubicado debajo de la cancha, el cual permite revivir los más de 100 años de historia del club.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/bombonera.jpg" alt="Foto de la Bombonera" width="300px">
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-7">
+                <h4>Museo de Bellas Artes de la Boca Quinquela Martin</h4>
+                <p>Cuenta con la más amplia colección de óleos del pintor argentino Benito Quinquela Martín.</p>
+            </div>
+            <div class="col-md-3" id="museo">
+                <img src="img/MuseoQuinquelaMartin.jpg" alt="Foto del museo" width="250px">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <footer class="w-100 align-items justify-content-center pt-4">
+        <p class="fs-5 px-3 pt-4">Travel Fut.&copy; Todos los derechos reservados.</p>
+        <div class="iconos">
+            <a href="https://www.facebook.com/profile.php?id=100088143637755&is_tour_dismissed=true"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/travelfut8/"><i class="bi bi-instagram"></i></a>
+        </div>
+        <div>
+            <img src="img/uade.png">
+        </div>
+        <div class="wiki">Imágenes extraídas de wikipedia.</div>
+    </footer>
+</body>
+</html>

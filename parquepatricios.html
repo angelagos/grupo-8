@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque Patricios - info</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-color: crimson;
+            font-family: 'Roboto';
+        }
+        .container{
+            background-color: aliceblue;
+            border: 3px solid;
+        }
+        fieldset{
+            margin: 20px;
+            border: 2px solid;
+        }
+        legend{
+            background-color: lightcoral;
+            padding: 5px;
+            font-weight: bold;
+        }
+        img{
+            border: 2px solid;
+            border-radius: 20%;
+        }
+        #casagob{
+            padding-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><span class="text-primary fs-5 fw-bold">Travel Fut</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contactos.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Informacion.html">Informacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Quienes Somos?</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row m-3">
+            <div class="col-md-2">
+                <fieldset>
+                    <legend>Barrios</legend>
+                    <ul>
+                        <li><a href="info.html">Información general</a></li>
+                        <li><a href="laboca.html">La Boca</a></li>
+                        <li><a href="nunez.html">Núñez</a></li>
+                        <li><a href="boedo.html">Boedo</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="col-md-7">
+                <h4>Casa de la Ciudad</h4>
+                <p>Proyectada por Norman Foster, uno de los mejores arquitectos del mundo, la Casa de la Ciudad cuenta con 38 mil metros cuadrados y fue realizado con técnicas y estándares de cuidado ambiental. Es el primer edificio público de Sudamérica en alcanzar ese nivel.</p>
+            </div>
+            <div class="col-md-3" id="casagob">
+                <img src="img/casadegobierno.jpg" alt="Interior de la casa de gobierno" width="200px">
+            </div>
+        </div>
+        
+        <div class="row m-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-7">
+                <h4>Estadio Tomás Adolfo Ducó</h4>
+                <p>Conocido como "el Palacio", es propiedad del Club Atlético Huracán. Cuenta con una capacidad de 48314 espectadores y es lugar de numerosos conciertos y recitales.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/estadiohuracan.jpeg" alt="Foto del estadio" width="300px">
+            </div>
+        </div>
+        
+        <div class="row m-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-7">
+                <h4>Museo Bernasconi</h4>
+                <p>Este Museo se plantea como un ambiente de libertad con cierta intencionalidad lúdica, siendo la combinación deseada el aprender y disfrutar.
+                    Compañero de la educación primaria, se muestra atento a la realidad de las niñas y niños de hoy, sumergidos en un contexto tecnológico y de constante estímulo, para poder dirigirse a ellos en su propio lenguaje.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/museobernasconiPP.jpg" alt="Foto del museo" width="300px">
+            </div>
+        </div>
+        <div class="row m-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-7">
+                <h4>Museo del Dr. Genaro Giacobini</h4>
+                <p>Museo declarado "Sitio de Interés Cultural" por la Legislatura de la Ciudad Autónoma de Buenos Aires.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/museogiacobini.jpg" alt="Foto del museo" width="300px" id="museogiacobini">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <footer class="w-100 align-items justify-content-center pt-4">
+        <p class="fs-5 px-3 pt-4">Travel Fut.&copy; Todos los derechos reservados.</p>
+        <div class="iconos">
+            <a href="https://www.facebook.com/profile.php?id=100088143637755&is_tour_dismissed=true"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/travelfut8/"><i class="bi bi-instagram"></i></a>
+        </div>
+        <div>
+            <img src="img/uade.png">
+        </div>
+        <div class="wiki">Imágenes extraídas de wikipedia.</div>
+    </footer>
+    
+</body>
+</html>
